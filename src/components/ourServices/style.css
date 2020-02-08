@@ -1,0 +1,96 @@
+.mainExt {
+display: flex;
+height: auto;
+flex-direction: column;
+text-align: center;
+max-width: 100%;
+padding-top: 70px;
+}
+
+.titleDecor {
+  padding: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.titleDecor h1 {
+  margin: 0px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+#decoration {
+  display: inline-flex;
+  height: 1px;
+  width: 160px;
+  background-color: #333;
+
+}
+
+.serviceBox {
+  max-width: 100%;
+  flex-direction: row;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  /* padding-left: 130px;
+  padding-right: 130px; */
+}
+
+.serviceItem {
+padding-right: 20px;
+padding-left: 20px;
+width: 315px;
+}
+
+.serviceItem h2{
+  margin: 0px;
+  padding-bottom: 25px;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#services01 h2 {
+  color: #339e79;
+}
+
+#services02 h2 {
+  color: #2bc0ef;
+}
+
+#services03 h2 {
+  color: #de415c;
+}
+
+.serviceItem button {
+  width: 110px;
+  height: 37px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.serviceItem button:hover {
+  opacity: 0.5;
+}
+
+#services01 button {
+  background-color: #339e79;
+}
+
+#services02 button {
+  background-color: #2bc0ef;
+}
+
+#services03 button {
+  background-color: #de415c;
+}
+
+.serviceItem p {
+  max-width: 320px;
+  margin: 0;
+  padding-bottom: 25px;
+  font-size: 12px;
+}

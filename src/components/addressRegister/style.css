@@ -1,0 +1,39 @@
+.adressContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 760px;
+  align-self: center;
+}
+
+.itemRaw {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.itemRaw text {
+  padding-right: 10px;
+}
+
+#addressButton {
+  width: 110px;
+  height: 37px;
+  background-color: #339e79;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
+  border: none;
+  margin-bottom: 70px;
+}
+
+#addressButton:hover {
+  opacity: 0.5;
+}
+
+.inputSelect {
+  width: 185px;
+}
